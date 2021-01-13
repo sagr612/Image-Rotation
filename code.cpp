@@ -31,7 +31,7 @@ int main() {
     // Show the Rotated Image
     const char* pzRotatedImage = "Rotated Image";
     namedWindow(pzRotatedImage, CV_WINDOW_AUTOSIZE);
-    imshow(pzRotatedImage, dst);
+    imshow(pzRotatedImage, destination);
 
     waitKey(0);
     return 0;
